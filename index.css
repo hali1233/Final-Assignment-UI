@@ -1,0 +1,641 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+
+    text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.container {
+    max-width: 1200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.header-logo {
+    float: left;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+nav {
+    float: right;
+    margin: 2x;
+    padding: 2px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+ul li a {
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.hr {
+    width: 100%;
+    margin-top: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+#banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(banner.jpg);
+    height: 400px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.baner-head {
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 140px;
+text-align: center;
+}
+
+.baner-head-p1 {
+    font-family: Arial, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#head-para {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.heading1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.para1 {
+
+    font-family: Arial, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.anchor {
+    padding: 9px 27px;
+    font-family: Arial, sans-serif;
+    border-radius: 3px 3px 3px 3px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(94, 206, 20);
+    font-weight: bold;
+
+}
+
+.anchor:hover {
+    background-color: aquamarine;
+
+}
+
+.service-heading {
+    font-weight: bolder;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#serv-img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.ser-img {
+    display: inline-block;
+    width: 200px;
+
+    padding: 40px;
+}
+
+.sec1-head {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+    float: left;
+}
+
+.sec1-head-p {
+    font-family: Arial, sans-serif;
+    float: left;
+    text-align: justify;
+}
+
+#see-anchor {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.see-anchor {
+    font-family: Arial, sans-serif;
+    padding: 8px 25px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    background-color: #5c7591;
+}
+
+.see-anchor:hover {
+    background-color: aquamarine;
+}
+
+#about-left-head {
+    width: 56%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-left-head1 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.about-left-head2 {
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 39px;
+    width: 86%;
+    float: left;
+    text-align: justify;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.about-left-para {
+    font-family: Arial, sans-serif;
+    float: left;
+    text-align: justify;
+    margin-left: 20px;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.findout-anchor {
+    padding: 20px 25px;
+    margin-top: 30px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+
+    color: black;
+    background-color: transparent;
+    float: left;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.findout-anchor:hover {
+    background-color: aquamarine;
+}
+
+#house-pic1 {
+    width: 34%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+#banner2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(qurestions-banner.jpg);
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.baner-head2 {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 140px;
+text-align: center;
+}
+
+.baner-head-p2 {
+    width: 27%;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.findout-anchor2 {
+
+    padding: 20px 25px;
+    border-radius: 3px 3px 3px 3px;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: rgb(245, 203, 19);
+    margin-left: 520px;
+    
+}
+
+.findout-anchor2:hover {
+    background-color: aquamarine;
+}
+
+#list-contractor {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.list-head {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.list-para {
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: justify;
+}
+
+#table-data {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+.table-row-heading {
+
+    padding: 9px 27px;
+    height: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.table-row-data {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-section {
+    padding: 9px 25px;
+    margin-top: 20px;
+    margin-left: -55px;
+}
+
+.form-left {
+    float: left;
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+
+}
+
+#form-right {
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:whitesmoke;
+    float: right;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.form-right-img{
+    padding: 9px 25px;
+  margin-left: 3px;
+  border-radius: 5px 5px 5px 5px;
+}
+.form-right-para1{
+    padding: 9px 25px;
+    font-family: Arial, sans-serif;
+    text-align: justify;    
+}
+ol li{
+    padding: 4px;
+    margin-left: 16px;
+    list-style: decimal;
+    
+}
+.heading3 {
+    margin-top: 20px;
+}
+
+form #name {
+    width: 80%;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form #email {
+    width: 80%;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    float: left;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form #dob {
+    width: 80%;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    float: left;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+}
+
+select {
+    width: 80%;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    float: left;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+}
+
+    #individual {
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    float: left;
+   
+}
+#organization {
+    font-family: Arial, sans-serif;
+    margin-left: 50px;
+    display: inline;
+    
+}
+
+
+form #about-you {
+    height: 170px;
+    width: 80%;
+    margin-top: 5px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 50px;
+    font-family: Arial, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+}
+
+form #submit {
+    height: 45px;
+    width: 115px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid white;
+    background-color: rgba(166, 255, 0, 0.712);
+}
+
+#footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 150px;
+    margin-top: 3640px;
+    
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.footer-head {
+    padding: 9px 25px;
+    float: left;
+    margin-left: 70px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-para {
+    padding: 9px 25px;
+    font-family: Arial, sans-serif;
+    width: 33%;
+    margin-top: 40px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.footer-anchor {
+    font-family: Arial, sans-serif;
+    float: left;
+    padding: 9px 25px;
+    margin-left: 70px;
+    text-decoration: underline;
+}
+
+.footer-section {
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 30px;
+}
+
+.footer-section-para {
+    padding: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
